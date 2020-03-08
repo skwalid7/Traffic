@@ -1,0 +1,306 @@
+/*[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name:Walid
+Primary use:    Project Type*/
+
+/*[Table of contents]
+
+1. Body
+2.*/
+
+/*
+==========================================
+Reset Css
+==========================================
+*/
+html{
+	scroll-behavior: smooth;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+	margin-left: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+	font-weight: 501;
+	color: #5b5b5b;
+}
+p{
+	margin: 0;
+	color: #777;
+	font-weight: 500;
+}
+
+/* hero-area  */
+/*.hero-area{
+background:url('../img/hero_bg.jpg');
+background-position:center;
+background-size:cover;
+height:100vh;
+
+}*/
+.seo-but a {
+	background:#ef476f;
+	color: white;
+	padding: 5px 25px;
+	margin-left: 120px;
+	margin-top: 5px;
+}
+.hero-head{
+	padding: 280px 0px 210px;
+}
+.hero-head h1 {
+	font-weight: 500;
+}
+.hero-head p {
+	font-weight: 500;
+	padding-top: 20px;
+}
+.hero-but button {
+	margin-left: 15px;
+	border-radius: 0px;
+	padding: 5px 30px;
+	background:#ef476f;
+	color: white;
+}
+.nav-item:hover a {
+	color: #ef476f !important;
+}
+.hero-head-but{
+	margin-top: 40px;
+}
+.hero-img {
+	text-align: right;
+	padding: 250px 0px 170px;
+}
+.bg-wh{
+	background: white !important;
+}
+/*Start Service css*/
+.services-area {
+	padding-bottom: 125px;
+}
+.services-head{
+	padding: 100px 280px 50px;
+}
+.services-head p {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 20px;
+	color: #766;
+}
+.services-item {
+	padding: 25px 10px 5px;
+	border: 1px solid #ddd;
+	margin: 15px 0px;
+}
+.services-item:hover {
+	padding: 25px 10px 5px;
+	border: 1px solid #ef476f;
+	color: #ef476f;
+}
+.services-item:hover h5 {
+	color: #ef476f;
+	transition: .3s;
+}
+.services-item:hover a{
+	color: #ef476f;
+	transition: .3s;
+}
+.services-item i {
+	font-size: 30px;
+	margin: 10px;
+}
+.services-item h5 {
+	font-size: 20px;
+	padding: 20px 0px;
+}
+.Service-text h3 {
+	padding: 25% 10% 5% 0px;
+}
+.Service-text p {
+	font-size: 16px;
+	color: #888;
+}
+.Service-text button{
+	font-size: 16px;
+	color: #fff;
+	background: #ef476f;
+	padding: 4px 25px;
+	margin-top: 30px;
+}
+.service-img {
+	padding: 20% 0px 0%;
+}
+/*Start Button effect*/
+.btn-effect{
+	display: inline-block;
+	padding: 5px 15px;
+	color: #777;
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	transition: .3s;
+	margin: 20px 0px;
+}
+.btn-effect:hover{
+	color:white !important;
+	text-decoration: none;
+}
+.btn-effect::after{
+	content: '';
+	position: absolute;
+	width:0%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #ef476f;
+	z-index: -1;
+}
+.btn-effect:hover::after{
+	width:100%;
+	transition: .3s;
+}
+/*Finished Button effect*/
+/*Start Study css*/
+.study-area{
+	background: #fbfbfb;
+	padding: 100px 0px;
+}
+.study-head p {
+	padding-top: 20px;
+	font-size: 14px;
+}
+.study-item{
+	padding-top: 100px;
+}
+/*Start review css*/
+.review-area{
+	padding: 70px 0px;
+	background: white;
+}
+.single-review-item p {
+	font-size: 17px;
+	font-weight: normal;
+}
+.reviewer-image img {
+	max-width: 10%;
+	margin: 5% 45% 3%;
+}
+.reviewer-image.text-center p {
+	font-size: 13px;
+	padding-top: 5px;
+}
+.reviewer-image h6 {
+	font-weight: bold;
+}
+/*Start Digital Market css*/
+.digital-market-area{
+	padding: 4% 0%;
+	background:  #fbfbfb;
+}
+.market-but{
+	font-size: 16px;
+	color: #fff;
+	background: #ef476f;
+	padding: 10px 25px;
+}
+/*Start price css*/
+.price-area{
+	padding: 100px 0px;
+}
+.price-head p {
+	padding-top: 20px;
+	font-size: 14px;
+}
+.card-body ul li {
+	padding: 8px 0px;
+	font-size: 14px;
+	font-weight: unset;
+	color: 
+	#7d7d7d;
+}
+.card-body button {
+	font-size: 14px;
+	padding: 7px 30px;
+	margin: 30px 0px 10px;
+	background: #f0476e;
+	color:white;
+	border-radius: 0px;
+}
+.card{
+	padding: 10px;
+	border-radius: 0px;
+}
+.card:hover{
+	border:1px solid #f0476e;
+	transition: .3s;
+}
+.card:hover .card-body hr{
+	background:  #f0476e;
+	transition: .3s;
+}
+.card-deck {
+	padding-top: 80px;
+}
+.card-head h5 {
+	font-size: 14px;
+	padding: 20px 0px 0px;
+}
+.card-head p {
+	font-size: 12px;
+}
+.card-head h1 {
+	font-size: 50px;
+	padding: 10px 0px;
+	color: #f0476e;
+}
+.logo-img-area{
+	padding: 10% 0% 0%;
+}
+/*Start Contact css*/
+.contact-area{
+	padding: 5% 0% 2%;
+	background: #fbfbfb;
+}
+.contact-list h6 {
+	font-size: 16px;
+	padding: 0px 0px 20px 10px;
+}
+.contact-area ul li {
+	font-size: 14px;
+	color: #5e5e5e;
+	font-weight: 500;
+}
+.input-group{
+	padding-left: 10px;
+}
+.foot-icon a i {
+	color: #666;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.copy-area{
+	background: #ececec;
+	padding: 1%; 
+}
+.copy-text a{
+	color: #888;
+}
+.copy-text a:hover{
+	color: #ef476f;
+	text-decoration: none;
+}

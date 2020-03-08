@@ -1,0 +1,387 @@
+/* Medium Layout:1280px. */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	.seo-but a {
+    margin-left: 45px;
+}
+.hero-but button {
+    margin-left: 10px;
+    padding: 5px 20px;
+}
+.hero-img {
+    padding: 200px 0px 120px;
+}
+.hero-head h1 {
+    font-size: 35px;
+}
+.hero-head {
+    padding: 225px 0px 210px;
+}
+.input-group-append button {
+    font-size: 14px;
+}
+input.form-control {
+    font-size: 14px;
+}
+.market-but {
+    font-size: 15px;
+    padding: 7px 20px;
+}
+.single-review-item p {
+    font-size: 16px;
+}
+.digital-market-area {
+    padding: 6% 0%;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width:768px) and (max-width:991px) {
+	.seo-but a {
+    padding: 4px 10px;
+    margin-left: 5px;
+    margin-top: 8px;
+    font-size: 13px;
+}
+.nav-item {
+    list-style: none;
+    margin-left:-1px;
+}
+a.navbar-brand img {
+    max-width: 70%;
+}
+.hero-head {
+    padding: 150px 0px 100px;
+}
+.hero-head h1 {
+    font-size: 29px;
+}
+.hero-but button {
+    margin-left: 5px;
+    padding: 8px 10px;
+    font-size: 12px;
+}
+.input-group {
+    padding-left: 0px;
+}
+.hero-img {
+    text-align: right;
+    padding: 165px 0px 130px;
+}
+input.form-control {
+    font-size: 13px;
+}
+.services-head {
+    padding: 35px 5px 0px;
+}
+.services-item h5 {
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.services-item i {
+    font-size: 52px;
+    margin: 25px;
+}
+.services-item {
+    padding: 0px 5px 0px;
+    margin: 15px 0px;
+}
+.btn-effect {
+    margin: 10px 0px;
+}
+.service-img {
+    padding: 30% 0px 0%;
+}
+h3 {
+    font-size: 25px;
+}
+.services-area {
+    padding-bottom: 80px;
+}
+.study-area {
+    padding: 50px 0px;
+}
+.study-item {
+    padding-top: 50px;
+}
+.review-area {
+    padding: 40px 0px;
+}
+.col-sm-9.market-text h3 {
+    font-size: 21px;
+}
+.market-but {
+    font-size: 12px;
+    padding: 7px 15px;
+}
+.digital-market-area {
+    padding: 8% 0%;
+}
+.price-area {
+    padding: 50px 0px;
+}
+.card-deck {
+    padding-top: 50px;
+}
+.card-head h1 {
+    font-size: 40px;
+    padding:0px;
+}
+.card-body ul li {
+    padding: 2px 0px;
+    font-size: 13px;
+}
+.card-deck .card {
+    margin-left: 0px;
+}
+.card-body button {
+    padding: 5px 28px;
+    margin: 20px 0px 0px;
+}
+.col-sm-12.col-md-3.col-12.contact-list {
+    margin-left: 2px;
+    margin-top: 30px;
+}
+.input-group-append {
+    margin-left: -1px;
+    width: 0px;
+}
+.foot-icon {
+    display: flex;
+}
+.foot-icon a i {
+    color: #666;
+    padding-left: 44px;
+    font-size: 18px;
+}
+.col-sm-4.col-md-3.col-4.contact-list {
+    margin-right: 60px;
+}
+
+
+
+
+}
+/* wide Mobile Layout;488px  */
+@media only screen and (min-width:480px) and (max-width:767px) {
+	.card-body button {
+    font-size: 12px;
+    padding: 2px 5px;
+}
+.study-img img {
+    width: 100%;
+}
+.market-text h3 {
+    text-align: left;
+    font-size: 16px;
+}
+.market-but {
+    font-size: 10px;
+    padding: 5px 8px;
+    margin-top: 0px;
+}
+.price-head p {
+    font-size: 13px;
+}
+.card-head h1 {
+    font-size: 23px;
+    padding: 3px 0px;
+}
+.card-head h5 {
+    font-size: 12px;
+    padding: 5px 0px 0px;
+}
+.card-head p {
+    font-size: 10px;
+}
+.card-body.text-center {
+    padding: 0px;
+}
+.card-body ul li {
+    padding: 2px 0px;
+    font-size: 12px;
+}
+.card-body button {
+    font-size: 13px;
+    padding: 2px 10px;
+    text-align: center;
+}
+}
+/* Mobile Layout: 320px;. */
+@media only screen and (max-width:767px) {
+	h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 12px;
+}
+.navbar-brand img{
+	max-width: 65%;
+}
+.navbar-brand {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.navbar-toggler-icon {
+	width: 20px;
+}
+.navbar-toggler {
+	padding: 0px 8px;
+	font-size: 18px;
+}
+.seo-but a {
+	padding: 4px 14px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+.hero-head {
+	padding: 100px 0px 0px;
+}
+.hero-head h1 {
+	font-size: 24px;
+}
+.hero-head p {
+	padding-top: 15px;
+	font-size: 13px;
+}
+.hero-but button {
+	margin-left: 5px;
+	padding: 7px 10px;
+	font-size: 12px;
+}
+a.nav-link {
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+input.form-control {
+    font-size: 13px;
+    padding-left: 10px;
+}
+.hero-img {
+    text-align: right;
+    padding: 45px 0px 20px;
+}
+.services-head {
+	padding: 25px 0px 10px;
+}
+.services-item p {
+    font-size: 14px;
+}
+.services-item {
+    padding: 20px 15px 5px;
+    margin: 10px 0px;
+}
+.services-item:hover {
+    padding: 20px 15px 5px;
+}
+.services-item i {
+    font-size: 40px;
+    margin: 10px 0px 0px;
+}
+.services-item h5 {
+    font-size: 18px;
+}
+.Service-text h3 {
+    padding: 20% 0% 5% 5px;
+}
+.Service-text p {
+    font-size: 14px;
+    padding-left: 5px;
+}
+.Service-text button {
+    font-size: 15px;
+    padding: 3px 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.services-area {
+    padding-bottom: 50px;
+}
+.study-area {
+    padding: 35px 0px 0px;
+}
+.study-head p {
+    padding-bottom: 35px;
+}
+.study-item {
+    padding: 15px;
+}
+.review-area {
+    padding: 40px 15px;
+}
+.single-review-item p {
+    font-size: 15px;
+}
+.reviewer-image img {
+    max-width: 20%;
+    margin: 5% 40% 5%;
+}
+.digital-market-area {
+    padding: 10% 0%;
+}
+.market-text h3 {
+    text-align: center;
+}
+.market-but {
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+.col-sm-3.text-right {
+    text-align: center !important;
+}
+.price-area {
+    padding: 40px 0px 30px;
+}
+.logo-img-area {
+    padding: 0%;
+}
+.contact-list {
+    margin-top: 25px;
+}
+.contact-list h6 {
+    font-size: 15px;
+    padding: 0px 0px 5px 0px;
+}
+.contact-area ul li {
+    font-size: 11px;
+    margin-left: 0px;
+    color: #888;
+}
+.col-sm-3.col-4.contact-list {
+    padding: 10px;
+}
+.col-sm-3.col-4.contact-list {
+    padding: 10px;
+}
+.input-group {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.input-group-append button {
+    font-size: 13px;
+}
+.foot-icon a i {
+    padding: 5px 12px;
+    font-size: 14px;
+}
+.copy-text a {
+    color: #888;
+    font-size: 13px;
+    padding: 10px 0px;
+}
+#scrollUp {
+    bottom: 25px;
+    right: 10px;
+}
+}	
